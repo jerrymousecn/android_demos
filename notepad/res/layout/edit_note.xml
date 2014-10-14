@@ -4,15 +4,18 @@
     android:layout_height="fill_parent"
     android:orientation="vertical" >
 
-    <net.jmcnsoft.notepad.LinedEditText
-        android:id="@+id/editText1"
+    <EditText
+        android:id="@+id/editTitleTextView"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1.0"
-        android:fadingEdge="vertical"
-        android:gravity="top"
-        android:paddingTop="1.0dip"
-        android:scrollbars="vertical"
-        android:textSize="22.0sp" />
+        android:hint="@string/hint_title"
+        android:textSize="20.0sp" />
+
+    <net.jmcnsoft.notepad.LinedEditText
+        android:id="@+id/editContentTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_content"
+        android:textSize="20.0sp" />
 
 </LinearLayout>

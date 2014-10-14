@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <string name="app_name">notepad</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_new">New</string>
-
+    <string name="action_save">Save</string>
+    <string name="action_del">Delete</string>
+    <string name="action_copy">Copy</string>
+    <string name="notice_on_double_back">One more back to quit</string>
+    <string name="op_on_item">Select operation</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_content">Content</string>
 </resources>
