@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/del_contact"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/del_contact"/>
+    <item
+        android:id="@+id/call_contact"
+        android:enabled="true"
+        android:icon="@android:drawable/ic_media_previous"
+        android:title="@string/call_contact"/>
+    <!-- these may not be available in next api (level > 3), so be carefull -->
+
+</menu>
